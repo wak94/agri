@@ -1,0 +1,32 @@
+### 解题思路
+
+此处撰写解题思路
+
+### 代码
+
+* python3
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]: #中，左，右
+        res=[]
+        def dfs(root):
+            nonlocal res  #当使用 nonlocal 时，就声明了该变量不只在嵌套函数inner（）里面才有效， 而是在整个大函数里面都有效。
+            #终止条件
+            if not root:
+                return #返回空
+            res.append(root.val)
+            dfs(root.left)
+            dfs(root.right)
+        dfs(root)
+        return res
+            
+            
+```
+
