@@ -47,6 +47,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1250]检查「好数组」.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1250]检查「好数组」.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1250" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1250]检查「好数组」.py" />
+              <option name="titleSlug" value="check-if-it-is-a-good-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[228]汇总区间.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[228]汇总区间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn228" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[228]汇总区间.py" />
+              <option name="titleSlug" value="summary-ranges" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2341]数组能形成多少数对.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2341]数组能形成多少数对.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2341" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2341]数组能形成多少数对.py" />
+              <option name="titleSlug" value="maximum-number-of-pairs-in-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[30]串联所有单词的子串.py">
           <value>
             <LeetcodeEditor>
@@ -66,6 +99,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[332]重新安排行程.py" />
               <option name="titleSlug" value="reconstruct-itinerary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[343]整数拆分.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[343]整数拆分.md" />
+              <option name="frontendQuestionId" value="leetcode.cn343" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[343]整数拆分.py" />
+              <option name="titleSlug" value="integer-break" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -242,6 +286,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[69]x 的平方根 .py" />
               <option name="titleSlug" value="sqrtx" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[71]简化路径.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[71]简化路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn71" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[71]简化路径.py" />
+              <option name="titleSlug" value="simplify-path" />
             </LeetcodeEditor>
           </value>
         </entry>
