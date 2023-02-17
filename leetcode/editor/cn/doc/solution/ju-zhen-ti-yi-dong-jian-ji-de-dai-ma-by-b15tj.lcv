@@ -1,0 +1,43 @@
+**思路**
+1. 记录以(i,j)为右下角的矩阵的宽（dp[i][j][0]）和高（dp[i][j][1]）
+2. 取宽和高中小的那个作为正方形的边长
+3. 枚举边长，直至能构成正方形为止
+
+**关键点**
+能构成正方形的条件是：正方形左下角点的高度 和 正方形右上角点的宽度 都大于等于 边长
+
+* 
+
+```
+class Solution {
+    public int largest1BorderedSquare(int[][] grid) {
+        int max = 0 ; // 长度的最大值
+        int m = grid.length ;
+        int n = grid[0].length ;
+        int[][][] dp = new int[m][n][2] ; 
+
+        for( int i = 0 ; i < m ; i++){
+            for(int j = 0 ; j < n ; j++){
+                if( grid[i][j] == 0 )
+                    continue ;
+
+                dp[i][j][0] = j == 0 ? 1 : dp[i][j-1][0]+1 ;  // 宽度
+                dp[i][j][1] = i == 0 ? 1 : dp[i-1][j][1]+1 ;  // 高度
+
+                int l = Math.min( dp[i][j][0],  dp[i][j][1] ) ;
+
+                while( l > max ){
+
+                    if( i-l+1 >= 0 && dp[i-l+1][j][0] >= l &&
+                        j-l+1 >= 0 && dp[i][j-l+1][1] >= l )
+                        max = Math.max(max,l) ;
+
+                    l-- ;
+                }
+            }
+        }
+        return max*max ;
+    }
+}
+```
+
