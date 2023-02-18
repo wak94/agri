@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1207]独一无二的出现次数.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1207]独一无二的出现次数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1207" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1207]独一无二的出现次数.py" />
+              <option name="titleSlug" value="unique-number-of-occurrences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1234]替换子串得到平衡字符串.py">
           <value>
             <LeetcodeEditor>
@@ -66,6 +77,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1234]替换子串得到平衡字符串.py" />
               <option name="titleSlug" value="replace-the-substring-for-balanced-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1237]找出给定方程的正整数解.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1237]找出给定方程的正整数解.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1237" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1237]找出给定方程的正整数解.py" />
+              <option name="titleSlug" value="find-positive-integer-solution-for-a-given-equation" />
             </LeetcodeEditor>
           </value>
         </entry>

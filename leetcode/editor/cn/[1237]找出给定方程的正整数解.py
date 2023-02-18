@@ -77,10 +77,16 @@
        def f(self, x, y):
   
 """
+from bisect import bisect_left
 from typing import List
 
 
 class Solution:
     def findSolution(self, customfunction: 'CustomFunction', z: int) -> List[List[int]]:
-        
+        ans = []
+        for x in range(1, 1001):
+            y = 1 + bisect_left(range(1, 1001), z, key=lambda y: customfunction.f(x, y))
+            if customfunction.f(x, y) == z:
+                ans.append([x, y])
+        return ans
 # leetcode submit region end(Prohibit modification and deletion)
