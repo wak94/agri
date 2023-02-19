@@ -278,6 +278,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1792]最大平均通过率.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1792]最大平均通过率.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1792" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1792]最大平均通过率.py" />
+              <option name="titleSlug" value="maximum-average-pass-ratio" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[228]汇总区间.py">
           <value>
             <LeetcodeEditor>
@@ -627,6 +638,83 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[88]合并两个有序数组.py" />
               <option name="titleSlug" value="merge-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer 07]重建二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 07" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.py" />
+              <option name="titleSlug" value="zhong-jian-er-cha-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 15]二进制中1的个数.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer 15]二进制中1的个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 15" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 15]二进制中1的个数.py" />
+              <option name="titleSlug" value="er-jin-zhi-zhong-1de-ge-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 17]打印从1到最大的n位数.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer 17]打印从1到最大的n位数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 17" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 17]打印从1到最大的n位数.py" />
+              <option name="titleSlug" value="da-yin-cong-1dao-zui-da-de-nwei-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer 18]删除链表的节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 18" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.py" />
+              <option name="titleSlug" value="shan-chu-lian-biao-de-jie-dian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 21]调整数组顺序使奇数位于偶数前面.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer 21]调整数组顺序使奇数位于偶数前面.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 21" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 21]调整数组顺序使奇数位于偶数前面.py" />
+              <option name="titleSlug" value="diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer 39]数组中出现次数超过一半的数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 39" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.py" />
+              <option name="titleSlug" value="shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 42]连续子数组的最大和.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer 42]连续子数组的最大和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 42" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 42]连续子数组的最大和.py" />
+              <option name="titleSlug" value="lian-xu-zi-shu-zu-de-zui-da-he-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

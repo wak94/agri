@@ -1,0 +1,25 @@
+### 解题思路
+
+这题用最大堆来做，堆中存放一个元组（val, u, total），u表示通过人数，total表示这个班级总人数，val表示的是将这个优秀学生加到这个班级后，能增加的通过率，按通过率来作为这个堆的比较值，最后把堆中所有的通过率相加除以班级总数即可。
+
+### 代码
+
+* python3
+
+```python
+class Solution:
+    def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:
+        heap = []
+        for u, total in classes:
+            heapq.heappush(heap, ((u/total - (u + 1) / (total + 1)), u, total))
+        while extraStudents > 0:
+            val, u, total = heapq.heappop(heap)
+            heapq.heappush(heap, (((u + 1) / (total + 1) - (u + 2) / (total + 2)), u + 1, total + 1))
+            extraStudents -= 1
+        n = len(heap)
+        res = 0
+        for v, u, total in heap:
+            res += u / total
+        return res / n
+```
+
