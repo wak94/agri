@@ -38,6 +38,7 @@ import collections
 
 # leetcode submit region begin(Prohibit modification and deletion)
 class Solution:
+
     def firstUniqChar(self, s: str) -> int:
         cnt = collections.Counter(s)
         for i in range(len(s)):

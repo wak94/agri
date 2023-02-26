@@ -1,0 +1,58 @@
+### 解题思路
+
+![1.png](https://pic.leetcode-cn.com/1624715681-xGoAJb-1.png)
+
+1、首先我们考虑位置0，它必须被覆盖。哪些水龙头能够覆盖到它呢？1、2、3可以。显然，我们应该选择水龙头3，这样往右最远可以覆盖到6。这就是贪心的基本思想，当我们选择一个水龙头时，期望它可以尽可能的往右覆盖。
+
+2、选择3以后，很显然4没有意义，5可以往右扩展到7，而6可以往右扩展到9。所以每一次我们选择一个水龙头，它的左端可以衔接到上一个水龙头的最右端，它的右端尽可能的远。这样每次增加一个水龙头，直到能够覆盖到位置n。
+
+3、所以问题就转变为了能够覆盖某个点的水龙头，右端最大的一个是谁？有几种方法处理这个问题：  
+a、将覆盖区间排序，然后就可以顺序检查了。这种方法复杂度是nlog(n)。
+
+b、使用一个位置数组rightmosts[n+1]来记录每个位置rightmosts[i]，能够覆盖到它的水龙头最右端能够覆盖的位置。然后遍历每个水龙头，计算出left、right，那么区间[left,right]的最右端就都是right。多个水龙头就是多个right的最大值。这种方法，每次都要更新一个区间，本题中这个区间最大是200，所以复杂度是200 * n。
+
+c、这里有一个巧妙的方法，不用每次都更新整个区间，而只用记录下rightmosts[left]=right就可以了。这是因为接下来我们会遍历[0,n)所有位置，在这个过程中，我们再去更新rightmost的实际值。这样就将复杂度降到了O(n)。
+
+4、准备好rightmosts数组以后，我们依次遍历[0,n)位置。记breakpoint是上一个rightmost的值，表示上个水龙头能够覆盖的最右端位置。首先更新rightmost的实际值，它等于当前位置为止，rightmosts[i]的最大值，大家可以仔细思考一下这是为什么。然后，每一次到达breakpoint位置的时候，这是上一个水龙头能够覆盖的极限位置了，再往右就需要新增一个水龙头了。而此时新增的这个水龙头能够覆盖的最右端位置就是rightmost。如果很不幸，rightmost没有往右扩展，那么就说明覆盖范围到这里被割裂了，所以返回-1。
+
+5、最后要说明的是，不能遍历位置n。因为这个位置一定是在前面就能够计算到的。大家可以设想一下，如果前面n-1个位置可以全部覆盖，而位置n还没有计算到，那么就算位置n有一个覆盖范围是[0,0]的水龙头，最终的结果也是不能全部覆盖。
+
+### 复杂度分析：
+
+时间复杂度：O(n)。
+空间复杂度：O(n)。
+
+### 代码
+
+* 
+
+```
+class Solution {
+public:
+    int minTaps(int n, vector<int>& ranges) {
+        int i, rightmost = 0, breakpoint = 0, taps = 0;
+        vector<int> rightmosts(n + 1, 0);  // rightmosts[i]表示能够覆盖到位置i的水龙头最右边能够覆盖的位置
+
+        for (i = 0; i <= n; ++i) {
+            int left = max(0, i - ranges[i]), right = min(n, i + ranges[i]);
+            rightmosts[left] = max(rightmosts[left], right);
+        }
+
+        for (i = 0; i < n; ++i) {  // 位置n一定是前面就能计算到的，所以不要遍历这个位置
+            rightmost = max(rightmost, rightmosts[i]);
+
+            if (i == breakpoint) {
+                if (rightmost <= i) {
+                    return -1;
+                }
+
+                breakpoint = rightmost;
+                taps += 1;
+            }
+        }
+
+        return taps;
+    }
+};
+```
+
