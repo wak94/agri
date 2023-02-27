@@ -1,0 +1,39 @@
+[1144. 递减元素使数组呈锯齿状](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/)
+
+# 贪心
+
+因为题意只能将元素「减少」1，所以如果期望达到 $x>y$，则应减少 $y$。
+
+按题意需考虑两种情况：
+
+以第一种情况（即期望「奇数下标」比「偶数下标」小）为例，则应减少「奇数下标」。
+- 如果某奇数下标为 $i$，则期望满足 $nums[i-1] > nums[i] < nums[i+1]$，则期望使 $nums[i]$ 达到 $min(nums[i-1], nums[i+1]) - 1$
+  - 则如果 $nums[i]$ 本身就比  $min(nums[i-1], nums[i+1]) - 1$ 小，需操作 0 次
+  - 则如果 $nums[i]$ 本身就比  $min(nums[i-1], nums[i+1]) - 1$ 大，需操作 $nums[i] - (min(nums[i-1], nums[i+1]) - 1)$ 次
+  - 综上：需操作 $max(0, nums[i] - (min(nums[i-1], nums[i+1]) - 1))$ 次
+
+第二种情况同理（即期望「偶数下标」比「奇数下标」小）为例，则应减少「偶数下标」。
+
+所以，应取 $min(第一种奇数情况，第二种偶数情况)$
+
+具体实现思路上：
+- 可以用 $s[2]$的数组，其 $s[0]$ 表示奇数操作次数，其 $s[1]$ 表示偶数操作次数，这样一次遍历并取$min(s[0], s[1])$即可。
+- 需注意边界条件，即 `i-1` 和 `i+1` 越界时视为无穷大即可
+
+* []
+
+```Go
+func movesToMakeZigzag(nums []int) int {
+    s := [2]int{}
+    for i := range nums {
+        left := math.MaxInt32;  if i > 0 {left = nums[i-1]}
+        right := math.MaxInt32; if i < len(nums)-1 {right = nums[i+1]}
+        s[i%2] += max(0, nums[i] - min(left, right) + 1)
+    }
+    return min(s[0], s[1])
+}
+func max(a, b int) int {if a > b {return a}; return b}
+func min(a, b int) int {if a < b {return a}; return b}
+```
+
+[参考思路](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/solutions/2135375/mei-you-si-lu-yi-bu-bu-ti-shi-ni-si-kao-cm0h2/?orderBy=hot)

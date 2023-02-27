@@ -91,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1144]递减元素使数组呈锯齿状.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1144]递减元素使数组呈锯齿状.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1144" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1144]递减元素使数组呈锯齿状.py" />
+              <option name="titleSlug" value="decrease-elements-to-make-array-zigzag" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1207]独一无二的出现次数.py">
           <value>
             <LeetcodeEditor>
@@ -121,6 +132,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1234]替换子串得到平衡字符串.py" />
               <option name="titleSlug" value="replace-the-substring-for-balanced-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1235]规划兼职工作.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1235]规划兼职工作.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1235" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1235]规划兼职工作.py" />
+              <option name="titleSlug" value="maximum-profit-in-job-scheduling" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -806,6 +828,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[63]不同路径 II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[63]不同路径 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn63" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[63]不同路径 II.py" />
+              <option name="titleSlug" value="unique-paths-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[64]最小路径和.py">
           <value>
             <LeetcodeEditor>
@@ -825,6 +858,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[66]加一.py" />
               <option name="titleSlug" value="plus-one" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[67]二进制求和.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[67]二进制求和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn67" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[67]二进制求和.py" />
+              <option name="titleSlug" value="add-binary" />
             </LeetcodeEditor>
           </value>
         </entry>
