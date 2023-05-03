@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1003]检查替换后的词是否有效.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1003]检查替换后的词是否有效.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1003" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1003]检查替换后的词是否有效.py" />
+              <option name="titleSlug" value="check-if-word-is-valid-after-substitutions" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[103]二叉树的锯齿形层序遍历.py">
           <value>
             <LeetcodeEditor>
@@ -33,6 +44,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[108]将有序数组转换为二叉搜索树.py" />
               <option name="titleSlug" value="convert-sorted-array-to-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1096]花括号展开 II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1096]花括号展开 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1096" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1096]花括号展开 II.py" />
+              <option name="titleSlug" value="brace-expansion-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -399,6 +421,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1487]保证文件名唯一.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1487]保证文件名唯一.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1487" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1487]保证文件名唯一.py" />
+              <option name="titleSlug" value="making-file-names-unique" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1653]使字符串平衡的最少删除次数.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1653]使字符串平衡的最少删除次数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1653" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1653]使字符串平衡的最少删除次数.py" />
+              <option name="titleSlug" value="minimum-deletions-to-make-string-balanced" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1792]最大平均通过率.py">
           <value>
             <LeetcodeEditor>
@@ -462,6 +506,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[209]长度最小的子数组.py" />
               <option name="titleSlug" value="minimum-size-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[215]数组中的第K个最大元素.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[215]数组中的第K个最大元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn215" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[215]数组中的第K个最大元素.py" />
+              <option name="titleSlug" value="kth-largest-element-in-an-array" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -539,6 +594,50 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2347]最好的扑克手牌.py" />
               <option name="titleSlug" value="best-poker-hand" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2363]合并相似的物品.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2363]合并相似的物品.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2363" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2363]合并相似的物品.py" />
+              <option name="titleSlug" value="merge-similar-items" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2373]矩阵中的局部最大值.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2373]矩阵中的局部最大值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2373" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2373]矩阵中的局部最大值.py" />
+              <option name="titleSlug" value="largest-local-values-in-a-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[263]丑数.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[263]丑数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn263" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[263]丑数.py" />
+              <option name="titleSlug" value="ugly-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[264]丑数 II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[264]丑数 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn264" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[264]丑数 II.py" />
+              <option name="titleSlug" value="ugly-number-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -773,6 +872,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[46]全排列.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[46]全排列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn46" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[46]全排列.py" />
+              <option name="titleSlug" value="permutations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[494]目标和.py">
           <value>
             <LeetcodeEditor>
@@ -905,6 +1015,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[737]句子相似性 II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[737]句子相似性 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn737" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[737]句子相似性 II.py" />
+              <option name="titleSlug" value="sentence-similarity-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[738]单调递增的数字.py">
           <value>
             <LeetcodeEditor>
@@ -968,6 +1089,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[96]不同的二叉搜索树.py" />
               <option name="titleSlug" value="unique-binary-search-trees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[982]按位与为零的三元组.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[982]按位与为零的三元组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn982" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[982]按位与为零的三元组.py" />
+              <option name="titleSlug" value="triples-with-bitwise-and-equal-to-zero" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1067,6 +1199,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 43]1～n 整数中 1 出现的次数.py" />
               <option name="titleSlug" value="1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[面试题 05.02]二进制数转字符串.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[面试题 05.02]二进制数转字符串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 05.02" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[面试题 05.02]二进制数转字符串.py" />
+              <option name="titleSlug" value="bianry-number-to-string-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[面试题 05.04]下一个数.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[面试题 05.04]下一个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 05.04" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[面试题 05.04]下一个数.py" />
+              <option name="titleSlug" value="closed-number-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
